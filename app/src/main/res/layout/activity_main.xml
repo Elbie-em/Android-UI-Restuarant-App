@@ -7,14 +7,15 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/wallpaper"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:scaleType="fitStart"
+        android:layout_height="220dp"
         android:src="@drawable/wallpaper" />
 
     <TextView
+        android:id="@+id/title"
         android:alpha=".9"
+        android:layout_alignParentTop="true"
         android:background="#292b2a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,5 +24,16 @@
         android:textColor="#ffffff"
         android:text="El's Kitchen"
         android:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/mission-stat"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:text="We serve Brussels finest cuisine, we imagine a world where there is no such thing as a bad meal !."
+        android:fontFamily="sans-serif"
+        android:textSize="16dp"/>
 
 </RelativeLayout>
