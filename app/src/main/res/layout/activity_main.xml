@@ -36,4 +36,40 @@
         android:fontFamily="sans-serif"
         android:textSize="16dp"/>
 
+    <ImageView
+        android:id="@+id/location"
+        android:layout_below="@id/mission-stat"
+        android:layout_width="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_height="35dp"
+        android:src="@drawable/location"/>
+
+    <ImageView
+        android:id="@+id/call"
+        android:layout_below="@id/location"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/phone"/>
+
+    <TextView
+        android:id="@+id/loc-text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/location"
+        android:layout_below="@id/mission-stat"
+        android:padding="5dp"
+        android:text="Chaussée de Louvain 922, 1140 Evere"/>
+
+    <TextView
+        android:id="@+id/phone-text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/call"
+        android:layout_below="@id/loc-text"
+        android:layout_marginTop="16dp"
+        android:padding="5dp"
+        android:text="02 726 56 00"/>
+
 </RelativeLayout>
