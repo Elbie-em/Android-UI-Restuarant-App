@@ -9,7 +9,9 @@
     <ImageView
         android:id="@+id/wallpaper"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitStart"
         android:src="@drawable/wallpaper" />
 
     <TextView
